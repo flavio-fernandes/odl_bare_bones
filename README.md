@@ -28,16 +28,14 @@ HOW TO BUILD
 
 In order to build it's required to have JDK 1.7+ and Maven 3+, to get a build going do this:
 
-cd build
-mvn clean install -nsu
+cd build && mvn clean install -nsu
 
 HOW TO RUN
 ============
 
 Upon successful completion of a build
 
-cd runDir
-./run.sh
+cd runDir && ./run.sh
 
 Wait for the osgi console to startup and then point a browser at 
 
